@@ -453,3 +453,16 @@ img{
     right: 10%;
   }
 }
+
+@media screen and (max-width: 360px){
+
+  .nav__logo img{
+    width: 100px;
+  }
+
+  .home__img img{
+    position: relative;
+    margin-left: 60px;
+  }
+
+}
