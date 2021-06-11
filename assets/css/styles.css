@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #652D90;
   --second-color: #0E2431;
 }
 
@@ -140,6 +140,13 @@ img{
     transition: .5s;
   }
 }
+
+@media screen and (max-width: 400px){
+  .nav__logo img{
+    width: 110px;
+  }
+}
+
 .nav__item{
   margin-bottom: var(--mb-4);
 }
@@ -165,7 +172,7 @@ img{
 }
 
 .nav__logo img{
-  width: 140px;
+  width: 60%;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -453,4 +460,3 @@ img{
     right: 10%;
   }
 }
-
