@@ -467,3 +467,10 @@ img{
     height: auto;
   }
 }
+
+@media screen and(max-width: 400px) {
+  .home__img{
+    width: 60%;
+    height: auto;
+  }
+}
