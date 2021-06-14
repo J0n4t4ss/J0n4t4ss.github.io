@@ -21,7 +21,7 @@ try {
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'siteportfolioo@gmail.com';
-	$mail->Password = 'ahsul123456.';
+	$mail->Password = '#';
 	$mail->Port = 587;
 
 	$mail->setFrom('siteportfolioo@gmail.com');
